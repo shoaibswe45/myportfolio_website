@@ -5,23 +5,22 @@ A premium, modern, personal portfolio website built with pure HTML, CSS, and Van
 
 ![Portfolio Preview](https://via.placeholder.com/800x400/0a0a0f/00ff88?text=Shoaib+Malik+Portfolio)
 
-## 🚀 Features
+## Features
 
-- ✅ Fully responsive design (desktop, tablet, mobile)
-- ✅ Terminal/hacker-inspired aesthetic
-- ✅ Smooth animations and transitions
-- ✅ Typing text effect
-- ✅ Animated counters
-- ✅ Portfolio filter system
-- ✅ Testimonials slider
-- ✅ Contact form
-- ✅ Scroll progress indicator
-- ✅ Back-to-top button
-- ✅ Mobile navigation menu
+- Fully responsive design (desktop, tablet, mobile)
+- Terminal/hacker-inspired aesthetic
+- Smooth animations and transitions
+- Typing text effect
+- Animated counters
+- Portfolio filter system
+- Testimonials slider
+- Contact form
+- Scroll progress indicator
+- Back-to-top button
+- Mobile navigation menu
 
-## 📁 Project Structure
+## Project Structure
 
-```
 portfolio/
 ├── index.html      # Main HTML file with all code
 ├── README.md       # This file
@@ -29,8 +28,8 @@ portfolio/
     ├── profile.jpg
     ├── projects/
     └── certifications/
-```
 
+```
 ## 🛠️ Customization
 
 ### Change Personal Information
@@ -52,13 +51,13 @@ Find the `:root` CSS variables at the top of the `<style>` section:
     --accent-secondary: #00d4ff;
     /* ... more variables */
 }
-```
+
 
 ### Add Your Photo
 Replace the placeholder image URL in the hero section:
 ```html
 <img src="YOUR_IMAGE_URL_HERE" alt="Shoaib Malik" class="hero-image">
-```
+
 
 ---
 
@@ -121,7 +120,7 @@ git add .
 
 # Commit files
 git commit -m "Initial commit - Portfolio website"
-```
+
 
 #### Step 2: Create GitHub Repository
 1. Go to GitHub and create a new repository named `portfolio`
@@ -135,7 +134,7 @@ git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
 # Push to GitHub
 git branch -M main
 git push -u origin main
-```
+
 
 #### Step 4: Enable GitHub Pages
 Same as Method 1, Step 4.
@@ -175,7 +174,7 @@ git commit -m "Updated portfolio content"
 
 # Push to GitHub
 git push
-```
+
 
 ---
 
@@ -191,27 +190,27 @@ git push
 Add these records at your domain registrar:
 
 **For apex domain (shoaibmalik.com):**
-```
+
 Type: A
 Host: @
 Value: 185.199.108.153
        185.199.109.153
        185.199.110.153
        185.199.111.153
-```
+
 
 **For www subdomain:**
-```
+
 Type: CNAME
 Host: www
 Value: imshoaibmlk.github.io
-```
+
 
 ### Add CNAME File
 Create a file named `CNAME` (no extension) with your domain:
-```
+
 shoaibmalik.com
-```
+
 
 ---
 
@@ -249,7 +248,7 @@ GitHub Pages provides free HTTPS:
   gtag('js', new Date());
   gtag('config', 'YOUR_ID');
 </script>
-```
+
 
 ---
 
@@ -278,11 +277,11 @@ If you need help:
 - 🐙 GitHub: [@imshoaibmlk](https://github.com/imshoaibmlk)
 
 ---
-
-## 📄 License
+```
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with 💚 by Shoaib Malik
+Made by Shoaib Malik
